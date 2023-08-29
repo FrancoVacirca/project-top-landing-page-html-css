@@ -3,33 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Mid Night Club</title>
   </head>
   <body>
-    <!--start of header-->
-    <header class="container-header">
-      <div class="header-left">
-        <div class="header-logo"></div>
-        <div class="header-name"></div>
+    <!--start of video background-->
+    <div class="video-container">
+      <video autoplay loop muted>
+        <source src="./images/japan-assetto-corsa.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <!--start of header-->
+      <div class="inside-video">
+        <header class="container-header">
+          <div class="header-logo">
+            <img class="header-png" src="./images/jdm-32916.png" alt="header png" width="50px" height="50px">
+          </div>
+          <h2 class="header-name">Mid Night Club</h2>
+          <div class="header-links">
+            <div class="link-one"></div>
+            <div class="link-two"></div>
+            <div class="link-three"></div>
+          </div>
+        </header>
       </div>
-      <div class="header-links">
-        <div class="link-one"></div>
-        <div class="link-two"></div>
-        <div class="link-three"></div>
-      </div>
-    </header>
-    <!--end of header-->
-    <!--start of layer one-->
-    <div class="layer1-container">
-      <div class="layer1-left">
-        <div class="layer1-header"></div>
-        <div class="layer1-text"></div>
-        <div class="layer1-signup">
+      <!--end of header-->
+      <!--end of video background-->
+      <!--start of layer one-->
+      <div class="layer1-container">
+        <div class="layer1-left">
+          <div class="layer1-header"></div>
+          <div class="layer1-text"></div>
+          <div class="layer1-signup">
             <button></button>
+          </div>
         </div>
-      </div>
-      <div class="layer1-right">
-        <div class="image"></div>
+        <div class="layer1-right">
+          <div class="image"></div>
+        </div>
       </div>
     </div>
     <!--end of layer one-->
@@ -64,10 +75,10 @@
     <!--start of layer four-->
     <div class="layer4-container"></div>
     <div class="signup-container">
-        <div class="layer4-text"></div>
-        <div class="button">
+      <div class="layer4-text"></div>
+      <div class="button">
         <button></button>
-        </div>
+      </div>
     </div>
     <!--end of layer four-->
     <!--start of footer-->
