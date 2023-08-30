@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inside-video {
+    position: relative;
+    z-index: 1; /* Place the content above the video */
+    padding: 20px;
+    color: white;
+}
+
+.container-header {
+    display: flex;
+}
+
+.header-png {
+    max-width: 100%;
+}
+
+.header-logo {
+    display: flex; 
+    align-items: center;
+}
+
+.header-name {
+    margin-left: 5px;
+}
