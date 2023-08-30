@@ -1,94 +1,92 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#background-video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -2;
 }
 
 .inside-video {
-    position: relative;
-    z-index: 1; 
-    color: white;
+  position: relative;
+  z-index: 1;
+  color: white;
 }
 
 #container-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
 }
 
 .header-png {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .header-logo {
-    display: flex; 
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-name {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .header-links {
-    display: flex;
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
 }
 
 .left-items {
-    display: flex;
-    padding-left: 20px;
+  display: flex;
+  padding-left: 20px;
 }
 
 .right-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 20px;
-}
-
-.header-links {
-    display: flex;
-    gap: 10px;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
 }
 
 #layer1-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80%;
-    margin: 40px;
-    margin-top: 140px;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  margin: 40px;
+  margin-top: 140px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .members-image {
-    width: 60vw;
+  width: 60vw;
 }
