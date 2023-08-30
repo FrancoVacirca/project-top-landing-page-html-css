@@ -22,13 +22,24 @@ video {
 
 .inside-video {
     position: relative;
-    z-index: 1; /* Place the content above the video */
-    padding: 20px;
+    z-index: 1; 
     color: white;
 }
 
-.container-header {
+#container-header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
 }
 
 .header-png {
@@ -42,4 +53,42 @@ video {
 
 .header-name {
     margin-left: 5px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.left-items {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#layer1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    margin: 40px;
+    margin-top: 140px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.members-image {
+    width: 60vw;
 }
