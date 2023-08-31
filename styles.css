@@ -131,6 +131,7 @@ p {
 .layer1-header {
   font-size: large;
   font-family: "Montserrat", sans-serif;
+  text-shadow: 0 0 0.8em rgb(127.5, 126.5, 127.5);
 }
 
 .layer1-text {
